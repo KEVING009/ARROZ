@@ -29,6 +29,7 @@
 #footer {
     background: linear-gradient(90deg,#525252,#9fe484 25%,#929292);
     margin-top: 23.2vh;
+    height: 15vh;
  }  
  #footer a {
     color: rgb(0, 0, 0);
