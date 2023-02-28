@@ -74,10 +74,10 @@
               <form>
                 <div class="form-row">
                   <div class="form-group col-12 col-md-6">
-                    <input type="text" id="cantidad" class="form-control" placeholder="Cantidad de arroz (en Kilogramos)">
+                    <input type="number" id="cantidad" class="form-control" placeholder="Cantidad de arroz (en Kilogramos)"value="">
                   </div>
                   <div class="form-group col-12 col-md-6">
-                    <input type="number" id="bodega" class="form-control" placeholder="Seleccione la bodega (1 o 2)">
+                    <input type="number" id="bodega" class="form-control" placeholder="Seleccione la bodega (1 o 2)"value="">
                   </div>
                 </div>
 
@@ -85,6 +85,17 @@
                   <div class="col">
                     <button type="button" class="btn btn-platzi btn-block" onclick="comprar()">Comprar</button>
                   </div>
+                  
+                </div>
+                <div class="col text-center">
+                    <div class="col text-center">
+                        Cantidad restante en Bodega 1
+                      </div>
+                      <input type="number" id="bodega1" class="form-control" value="100000">
+                      <div class="col text-center">
+                        Cantidad restante en Bodega 2
+                      </div>
+                      <input type="number" id="bodega2" class="form-control" value="">
                 </div>
               </form>
             </div>
@@ -120,6 +131,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
